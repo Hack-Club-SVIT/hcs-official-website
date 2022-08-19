@@ -1,7 +1,7 @@
 import { FaDiscord } from "react-icons/fa";
 import { useState } from "preact/hooks";
 export default function Navbar() {
-  const Links = ["Events", "Team"];
+  const Links = ["Home", "Events", "Team"];
   const [isOpen, setIsopen] = useState(false);
   const toggleNavBar = () => {
     setIsopen((isOpen) => !isOpen);
@@ -39,18 +39,20 @@ export default function Navbar() {
             ></path>
           </svg>
         </button>
-
         <div
           class="hidden w-full md:block md:w-auto transition-all"
           id="navbar"
         >
-          <ul class="flex flex-col p-2 mt-4 bg-gray-100 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul
+            class="flex flex-col p-2 mt-4 bg-gray-100 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700
+          "
+          >
             {Links.map((item) => {
               return (
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pr-4 pl-3 my-2 text-xl text-white rounded md:bg-transparent  md:p-0 dark:text-white"
+                    class="block py-2 pr-4 pl-3 my-2 text-xl font-semibold text-white rounded md:bg-transparent  md:p-0 dark:text-white"
                     aria-current="page"
                   >
                     {item}
@@ -58,14 +60,14 @@ export default function Navbar() {
                 </li>
               );
             })}
-            <button className="lg:hidden md:hidden w-full bg-blue-600 rounded-md flex justify-center p-2 items-center text-xl text-white">
+            <button className="lg:hidden md:hidden w-full bg-blue-600 rounded-md flex justify-center p-2 items-center text-xl font-semibold text-white">
               <FaDiscord className="mx-2" /> Join Discord
             </button>
           </ul>
         </div>
         <button
-          className="hidden lg:flex md:flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg  px-2 py-2.5 text-xl text-center mr-3 md:mr-0 bg-transparent
-        ring-1 transition-alldark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-2xl items-center
+          className="hidden lg:flex md:flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg  px-2 py-2.5 text-xl text-center mr-3 md:mr-0 bg-transparent
+        ring-1 transition-all dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-2xl items-center font-semibold
         "
         >
           <FaDiscord className="mx-2" /> Join Discord
