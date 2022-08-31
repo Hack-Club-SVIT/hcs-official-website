@@ -13,11 +13,9 @@
   },
   "dependencies": {
     "@fontsource/barlow": "^4.5.8",
-    "browserify": "^17.0.0",
     "preact": "^10.10.1",
     "react-icons": "^4.4.0",
-    "react-twitter-embed": "^4.0.4",
-    "requirejs": "^2.3.6"
+    "react-twitter-embed": "^4.0.4"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",
