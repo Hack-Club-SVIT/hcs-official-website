@@ -6,7 +6,7 @@ export default function Hero() {
       className="bg-primary text-barlow-700 h-screen flex flex-col
      items-center justify-around lg:flex-row lg:justify-start lg:px-12 lg:py-0 lg:items-center"
     >
-      <main className="my-8 text-white flex flex-col justify-between justify-items-start">
+      <main className="my-8 ml-8 lg:ml-0 text-white flex flex-col justify-between justify-items-start">
         <div className="font-extrabold text-6xl text-barlow-700 lg:text-8xl">This is </div>
         <div className="text-stroke text-4xl text-barlow-700 tracking-normal my-6 lg:my-0  lg:text-8xl font-semibold">
           Hack Club SVIT

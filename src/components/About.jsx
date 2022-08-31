@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section class="bg-[#2c2c2c]">
+    <section class="bg-[#2c2c2c] pt-4 lg:pt-4">
       {/* <div>About Us</div> */}
       <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <img
@@ -8,7 +8,7 @@ function About() {
           src="/team.png"
           alt="dashboard image"
         />
-        <div class="mt-4 md:mt-0 text-left">
+        <div class="mt-12 md:mt-0 text-center lg:text-left">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary">
             Who are we ?
           </h2>

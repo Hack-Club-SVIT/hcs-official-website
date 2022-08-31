@@ -75,7 +75,7 @@ export default function Navbar() {
             </ul>
           </div>
 
-        <a href="https:hackclubsvit.co" class="flex items-center">
+        <a href="https:hackclubsvit.co" class="flex items-center justify-between w-full lg:w-fit px-4 lg:px-0">
           <span class="self-center text-xl font-semibold whitespace-nowrap text-white hover:text-red-500">
             Hack Club SVIT
           </span>
