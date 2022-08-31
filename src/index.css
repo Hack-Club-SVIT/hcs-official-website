@@ -28,6 +28,10 @@
 .text-primary {
   color: var(--text-primary);
 }
+
+.text-secondary {
+  color: #37E873;
+}
 .text-stroke {
   color: #2c2c2c;
   -webkit-text-stroke: 2px var(--text-primary);

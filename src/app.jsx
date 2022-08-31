@@ -4,6 +4,7 @@ import About from "./components/About";
 import Carousel from "./components/Carousel";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import Events from "./components/Events";
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
       <Navbar />
       <Hero />
       <About />
+      <Events />
       <Team />
       <Footer/>
     </>

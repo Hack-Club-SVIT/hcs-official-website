@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Hack SVIT",
+        "description": "Faucibus volutpat erat rutrum quis enim, tellus eget fames. In magna dictum dolor nec, elit volutpat eu nunc, nisi. Leo scelerisque in vulputate tincidunt ultricies blandit. Eu sapien, blandit lobortis pharetra at diam.",
+        "src": "./Event.png"
+    },
+    {
+        "id": 2,
+        "name": "Hacking Hacktoberfest",
+        "description": "Faucibus volutpat erat rutrum quis enim, tellus eget fames. In magna dictum dolor nec, elit volutpat eu nunc, nisi. Leo scelerisque in vulputate tincidunt ultricies blandit. Eu sapien, blandit lobortis pharetra at diam.",
+        "src": "./Event.png"
+    },
+    {
+        "id": 3,
+        "name": "Flutter Bootcamp",
+        "description": "Faucibus volutpat erat rutrum quis enim, tellus eget fames. In magna dictum dolor nec, elit volutpat eu nunc, nisi. Leo scelerisque in vulputate tincidunt ultricies blandit. Eu sapien, blandit lobortis pharetra at diam.",
+        "src": "./Event.png"
+    },
+    {
+        "id": 4,
+        "name": "Event name",
+        "description": "Faucibus volutpat erat rutrum quis enim, tellus eget fames. In magna dictum dolor nec, elit volutpat eu nunc, nisi. Leo scelerisque in vulputate tincidunt ultricies blandit. Eu sapien, blandit lobortis pharetra at diam.",
+        "src": "./Event.png"
+    }
+]
