@@ -30,7 +30,7 @@
 }
 
 .text-secondary {
-  color: #37E873;
+  color: #37e873;
 }
 .text-stroke {
   color: transparent;
@@ -40,7 +40,12 @@
 				 1px -1px 0 var(--text-primary),
 				-1px -1px 0 var(--text-primary); */
 }
-
+iframe {
+  transition: all 0.25s ease-in-out;
+}
+iframe:hover {
+  transform: scale(1.04) rotateZ(4deg);
+}
 .text-barlow {
   font-family: 'Barlow';
 }

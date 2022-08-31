@@ -2,6 +2,7 @@ import { FaDiscord } from "react-icons/fa";
 import { useState } from "preact/hooks";
 import { BsFillCalendar2EventFill } from "react-icons/bs";
 import { AiOutlineTeam } from "react-icons/ai";
+import { AiOutlineArrowRight } from "react-icons/ai";
 export default function Navbar() {
   const Links = [
     {
@@ -54,25 +55,25 @@ export default function Navbar() {
           <ul
             class="hidden md:flex lg:flex flex-col p-2 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:border-gray-700
           "
-          >
-            {Links.map((item) => {
-              return (
-                <li>
-                  <a
-                    href="#"
-                    class="block py-2 pr-4 pl-3 my-2 text-xl font-semibold text-white rounded md:bg-transparent  md:p-0 dark:text-white"
-                    aria-current="page"
-                  >
-                    {item.name}
-                  </a>
-                </li>
-              );
-            })}
-            <button className="lg:hidden md:hidden w-full bg-blue-600 rounded-md flex justify-center p-2 items-center text-xl font-semibold text-white">
-              <FaDiscord className="mx-2" /> Join Discord
-            </button>
-          </ul>
-        </div>
+            >
+              {Links.map((item) => {
+                return (
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 pr-4 pl-3 my-2 text-xl font-semibold text-white rounded md:bg-transparent  md:p-0 dark:text-white"
+                      aria-current="page"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                );
+              })}
+              <button className="lg:hidden md:hidden w-full bg-blue-600 rounded-md flex justify-center p-2 items-center text-xl font-semibold text-white">
+                <FaDiscord className="mx-2" /> Join Discord
+              </button>
+            </ul>
+          </div>
 
         <a href="https:hackclubsvit.co" class="flex items-center">
           <span class="self-center text-xl font-semibold whitespace-nowrap text-white hover:text-red-500">
