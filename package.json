@@ -8,16 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/barlow": "^4.5.8",
+    "browserify": "^17.0.0",
     "preact": "^10.10.1",
-    "preact-swiper": "github:Lizhooh/preact-swiper",
     "react-icons": "^4.4.0",
-    "react-tweet-embed": "^2.0.0",
     "react-twitter-embed": "^4.0.4"
   },
   "devDependencies": {
