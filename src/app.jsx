@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Carousel from "./components/Carousel";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 export function App() {
   return (
@@ -11,8 +11,9 @@ export function App() {
       <Navbar />
       <Hero />
       <About />
+      <Testimonials />
       <Team />
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -11,7 +11,9 @@
   "dependencies": {
     "preact": "^10.10.1",
     "preact-swiper": "github:Lizhooh/preact-swiper",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-tweet-embed": "^2.0.0",
+    "react-twitter-embed": "^4.0.4"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",

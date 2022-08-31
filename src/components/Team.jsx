@@ -15,7 +15,9 @@ function Team() {
         </div>
         <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center place-items-center">
           {team.map((member) => {
-            return <TeamCard key={member.id} name={member.name} image={member.img} />;
+            return (
+              <TeamCard key={member.id} name={member.name} image={member.img} />
+            );
           })}
         </div>
       </div>
