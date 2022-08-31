@@ -40,3 +40,9 @@
 				 1px -1px 0 var(--text-primary),
 				-1px -1px 0 var(--text-primary); */
 }
+
+@media (max-width: 488px) {
+  .tweet iframe:nth-child(1) {
+    transform: rotateZ(4deg);
+  }
+}
