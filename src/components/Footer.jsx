@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="text-gray-400 bg-[#2c2c2c] body-font">
+    <footer class="text-gray-400 bg-[#2c2c2c] body-font text-barlow">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <a href="https:hackclubsvit.co" class="flex items-center">

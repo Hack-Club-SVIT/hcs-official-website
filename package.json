@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/barlow": "^4.5.8",
     "preact": "^10.10.1",
     "preact-swiper": "github:Lizhooh/preact-swiper",
     "react-icons": "^4.4.0",

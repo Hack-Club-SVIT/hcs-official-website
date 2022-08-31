@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Events from "./components/Events";
 
+
 export function App() {
   return (
     <>

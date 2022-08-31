@@ -3,15 +3,15 @@ import { useState } from "preact/hooks";
 export default function Hero() {
   return (
     <section
-      className="bg-primary h-screen flex flex-col
+      className="bg-primary text-barlow-700 h-screen flex flex-col
      items-center justify-around lg:flex-row lg:justify-start lg:px-12 lg:py-0 lg:items-center"
     >
       <main className="my-8 text-white flex flex-col justify-between justify-items-start">
-        <div className="font-extrabold text-6xl lg:text-9xl">This is </div>
-        <div className="text-stroke text-4xl tracking-normal my-6 lg:my-0  lg:text-8xl font-semibold">
+        <div className="font-extrabold text-6xl text-barlow-700 lg:text-8xl">This is </div>
+        <div className="text-stroke text-4xl text-barlow-700 tracking-normal my-6 lg:my-0  lg:text-8xl font-semibold">
           Hack Club SVIT
         </div>
-        <div className="text-2xl  lg:text-4xl tracking-wider my-5">
+        <div className="text-2xl text-barlow lg:text-4xl tracking-wider my-5">
           A Community of 1500+ Sexy students
         </div>
         <button className="bg-primary-red w-fit text-3xl px-5 py-3 rounded-lg">

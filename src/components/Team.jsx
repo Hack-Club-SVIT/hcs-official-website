@@ -3,7 +3,7 @@ import TeamCard from "./TeamCard";
 import team from "./team.json";
 function Team() {
   return (
-    <section class="bg-primary">
+    <section class="bg-primary text-barlow">
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary">

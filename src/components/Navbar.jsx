@@ -23,7 +23,7 @@ export default function Navbar() {
     document.getElementById("navbar").classList.toggle("hidden");
   };
   return (
-    <nav class="bg-primary border-gray-200  py-2 sm:px-4 lg:px-0 sticky top-0 z-10">
+    <nav class="bg-primary text-barlow border-gray-200  py-2 sm:px-4 lg:px-0 sticky top-0 z-10">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <button
           data-collapse-toggle="navbar-default"
@@ -75,7 +75,7 @@ export default function Navbar() {
         </div>
 
         <a href="https:hackclubsvit.co" class="flex items-center">
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white hover:text-red-500">
+          <span class="self-center text-xl font-semibold whitespace-nowrap text-white hover:text-red-500">
             Hack Club SVIT
           </span>
           <img src="/new.png" class="mx-2 h-7 sm:h-9" alt="Flowbite Logo" />

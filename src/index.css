@@ -33,12 +33,16 @@
   color: #37E873;
 }
 .text-stroke {
-  color: #2c2c2c;
+  color: transparent;
   -webkit-text-stroke: 2px var(--text-primary);
   /* text-shadow: -1px 1px 0 var(--text-primary),
 				  1px 1px 0 var(--text-primary),
 				 1px -1px 0 var(--text-primary),
 				-1px -1px 0 var(--text-primary); */
+}
+
+.text-barlow {
+  font-family: 'Barlow';
 }
 
 @media (max-width: 488px) {

@@ -8,7 +8,7 @@ function TeamCard({ name, image }) {
         src={image}
         alt="Bonnie Avatar"
       />
-      <h3 class="text-3xl font-bold tracking-tight text-white bg-primary-red">
+      <h3 class="text-2xl py-2 font-bold rounded-bl-md rounded-br-md tracking-tight text-white bg-primary-red">
         <a href="#">{name}</a>
       </h3>
     </div>

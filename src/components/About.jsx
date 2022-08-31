@@ -8,11 +8,11 @@ function About() {
           src="/team.png"
           alt="dashboard image"
         />
-        <div class="mt-4 md:mt-0">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary text-center">
+        <div class="mt-4 md:mt-0 text-left">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary">
             Who are we ?
           </h2>
-          <p class="mb-6 font-light text-white md:text-2xl  text-center">
+          <p class="mb-6 font-light text-white md:text-2xl">
             Hack Club SVIT is Community of passionate coders,students who are
             curios to learn and whos belive in mutual growth and want to learn
             in public

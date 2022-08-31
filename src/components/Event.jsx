@@ -4,7 +4,7 @@ export default function Event({name, sub, link, id}) {
   return (
        <section className='flex-col flex md:flex-col lg:flex lg:flex-row items-center justify-center w-full my-4'>
             <div className={id%2===0?'w-48 h-56 flex-[0.2] lg:flex-[0.45] order-1':'w-48 h-56 lg:flex-[0.45] order-0'}>
-                <img className='w-full rounded-lg h-full' src={link} alt="event" />
+                <img className='w-full object-cover rounded-lg h-full' src={link} alt="event" />
             </div>
             <div className={id%2==0?'w-full lg:w-2/5 font-extralight mx-4 text-end':'w-2/5 font-extralight mx-4'}>
                 <h3 className='text-4xl'>{name}</h3>
