@@ -6,7 +6,7 @@ function TeamCard({ name, image }) {
       <img
         class="mx-auto w-full h-56 rounded-tr-md rounded-tl-md object-cover"
         src={image}
-        alt="Bonnie Avatar"
+        alt={name}
       />
       <h3 class="text-2xl py-2 font-bold rounded-bl-md rounded-br-md tracking-tight text-white bg-primary-red">
         <a href="#">{name}</a>
